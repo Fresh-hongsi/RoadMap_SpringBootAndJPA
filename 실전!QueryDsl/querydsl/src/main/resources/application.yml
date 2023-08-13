@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: local #이렇게 하면 springboot(querydslapplication)에만 의존적으로 yml파일 동작 (즉 test와 application을 분리)
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/querydsl
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        # show_sql: true
+        format_sql: true
+        use_sql_comments: true #쿼리 dsl쓸때 jpql 쿼리 나가는 거 확인하는 용도
+logging.level:
+    org.hibernate.SQL: debug
+  # org.hibernate.type: trace

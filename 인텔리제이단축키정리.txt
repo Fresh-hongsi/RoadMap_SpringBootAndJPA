@@ -1,0 +1,11 @@
+생성자 및 getter,setter: 			alt+insert
+라이브러리 자동 import: 			alt+enter
+세미콜론까지 자동완성: 			ctrl+shift+enter
+private static void main method 단축어: 	psvm
+식의 좌항 변수 자동 완성:			ctrl+alt+v
+오류난 부분으로 편집기 커서 자동이동: 	f2
+편집기에서 테스트 메서드 자동생성: 		ctrl+shift+t
+이젠 실행 다시 실행:			shift+f10
+인라인으로 코드 정리:			ctrl+alt+n
+다음 에러찾기:				f2
+변수명 바꾸기:				shift+f6
